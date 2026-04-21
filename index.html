@@ -62,6 +62,15 @@
             font-family: Arial, sans-serif; /* Fuente moderna */
         }
 
+		@media (max-width: 768px) {
+    .tooltip {
+        left: -120px;
+        font-size: 12px;
+        white-space: normal;
+        width: 140px;
+    }
+}
+
         /* Añadimos un pequeño triángulo en el tooltip */
         .tooltip::after {
             content: '';
@@ -81,6 +90,25 @@
             transform: translate(-5px, -50%); /* Animación de deslizamiento suave */
         }
 
+
+		/* 🔹 AJUSTES PARA CELULAR */
+@media (max-width: 768px) {
+
+    .whatsapp-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .whatsapp-button img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .wrapper {
+        padding: 20px 15px;
+    }
+
+}
     </style>
 		
 	</head>
@@ -221,7 +249,7 @@
 					<br>
 					<br>
 					
-        <img src="images/curso.jpg" width="500" height="600">
+        <img src="images/curso.jpg" style="max-width:100%; height:auto;">
 	
 						</header>
 						
@@ -241,13 +269,28 @@
 							</div>
 								<h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DÓNDE ESTAMOS</h3>
 								<ul class="links">
-									<li><a href="#">Mattis et quis rutrum</a></li>
-									<li><a href="#">Suspendisse amet varius</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan dolor</a></li>
-									<li><a href="#">Mattis rutrum accumsan</a></li>
-									<li><a href="#">Suspendisse varius nibh</a></li>
-									<li><a href="#">Sed et dapibus mattis</a></li>
+									<li>
+								<i class="fas fa-phone" style="color: #003366;"></i> <span>&nbsp;&nbsp 0959953931</span>
+							</li>
+							
+							<li>
+								<i class="fas fa-phone" style="color: #003366;"></i> <span>&nbsp;&nbsp 0985466484</span>
+							</li>
+							
+							<li>
+								<i class="fas fa-envelope" style="color: #003366;"></i> <span>&nbsp;&nbsp conextri@conextri.com</span>
+							</li>
+							
+							
+							<li>
+								<i class="fas fa-globe" style="color: #003366;"></i> <span>&nbsp;&nbsp http://conextri.com/</span>
+							</li>
+							
+							<li>
+								<i class="fas fa-map-marker-alt" style="color: #003366;"></i> <span>&nbsp;&nbsp Av. Quevedo y Av. Abraham Calazacón, a 20 metros del Banco Pichincha, Santo Domingo de los Colorados, Ecuador, 230203</span>
+							</li>
+							
+							
 								</ul>
 							</section>
 					<!--		<section class="col-3 col-6-narrower col-12-mobilep">
@@ -288,11 +331,10 @@
 
 					<!-- Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+							<li><a href="https://www.tiktok.com/@mgs.alexandra_moreano" class="icon brands fa-tiktok"><span class="label">Tik Tok</span></a></li>
+							<li><a href="https://www.facebook.com/conextri.ec" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.youtube.com/@Conextri" class="icon brands fa-youtube"><span class="label">GitHub</span></a></li>
+							
 						</ul>
 
 					<!-- Copyright -->
